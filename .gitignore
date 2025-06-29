@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# System/Editor junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build artifacts (if using dist or build folders)
+dist/
+build/
+
+# OS-specific files
+*.swp
+*.swo

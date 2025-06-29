@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "2c275bfe-8e86-498c-a93d-d023b540f9ac",
+		"name": "School Management API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38561762"
+	},
+	"item": [
+		{
+			"name": "Add School",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Lucknow Grace School\",\r\n  \"address\": \"Gomti Nagar, Lucknow\",\r\n  \"latitude\": 26.8467,\r\n  \"longitude\": 80.9462\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/addSchool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Schools",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/listSchools?latitude=28.6139&longitude=77.2090",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"listSchools"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "28.6139"
+						},
+						{
+							"key": "longitude",
+							"value": "77.2090"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
