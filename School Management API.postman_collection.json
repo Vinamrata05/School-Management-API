@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"Lucknow Grace School\",\r\n  \"address\": \"Gomti Nagar, Lucknow\",\r\n  \"latitude\": 26.8467,\r\n  \"longitude\": 80.9462\r\n}\r\n\r\n",
+					"raw": "{\r\n  \"name\": \"Random School\",\r\n  \"address\": \"Random City\",\r\n  \"latitude\": 23.8500,\r\n  \"longitude\": 76.9490\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -27,12 +27,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/addSchool",
-					"protocol": "http",
+					"raw": "https://school-management-api-zpvo.onrender.com/addSchool",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"school-management-api-zpvo",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"addSchool"
 					]
@@ -46,12 +47,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/listSchools?latitude=28.6139&longitude=77.2090",
-					"protocol": "http",
+					"raw": "https://school-management-api-zpvo.onrender.com/listSchools?latitude=28.6139&longitude=77.2090",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"school-management-api-zpvo",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"listSchools"
 					],
