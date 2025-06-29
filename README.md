@@ -44,7 +44,7 @@ Add a new school to the system.
 **Deployed URL:**
 
 ```
-POST https://school-management-api-zpvo.onrender.com/addSchool
+[POST https://school-management-api-zpvo.onrender.com/addSchool](https://school-management-api-zpvo.onrender.com/addSchool)
 ```
 
 ---
@@ -56,7 +56,8 @@ Returns schools sorted by distance from user’s location.
 **Example:**
 
 ```
-GET https://school-management-api-zpvo.onrender.com/listSchools?latitude=19.076&longitude=72.877
+[GET https://school-management-api-zpvo.onrender.com/listSchools?latitude=19.076&longitude=72.877](https://school-management-api-zpvo.onrender.com/listSchools?latitude=19.076&longitude=72.877)
+
 ```
 
 You can change the latitude and longitude parameters in the above URL to get the schools sorted by proximity.
